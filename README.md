@@ -56,7 +56,7 @@ BarsLab/
 
 <div align="center">
   <h3>Ana Sayfa </h3>
-  <img src="bloghomepage.png" width="800" alt="BarsLab Ana Sayfa">
+  <img src="./bloghomepage.png" width="800" alt="BarsLab Ana Sayfa">
   
   <br>
 
