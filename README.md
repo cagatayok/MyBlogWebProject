@@ -63,7 +63,9 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
   
 </p>
 
+Proje Ekran Kaydı = https://www.loom.com/share/84840a65f71b4dd599c220c84047667f
 ---
+
 Geliştiren: **Çağatay Ok**
 
 ## 📂 Proje Yapısı
