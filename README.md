@@ -34,6 +34,7 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
   ## 📸 Ekran Görüntüleri
 
 <p align="center">
+  <br>
   <b>Ana Sayfa</b><br>
   <br>
   <img src="bloghomepage.png" width="800">
@@ -63,6 +64,7 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
 </p>
 
 ---
+Geliştiren: **Çağatay Ok**
 
 ## 📂 Proje Yapısı
 
