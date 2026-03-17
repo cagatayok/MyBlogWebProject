@@ -31,6 +31,28 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
 - **Styling:** CSS3 (Custom Modern Properties)
 - **HTTP Client:** Axios
 
+  ## 📸 Ekran Görüntüleri
+
+<div align="center">
+  <h3>Ana Sayfa</h3>
+  <img src="screenshots/bloghomepage.png" width="800" alt="BarsLab Ana Sayfa">
+  
+  <br><br>
+
+  <h3>Blog Detay</h3>
+  <img src="screenshots/blogdetailpage.png" width="800" alt="BarsLab Detay">
+  
+  <br><br>
+
+  <h3>Giriş Paneli</h3>
+  <img src="screenshots/blogloginpage.png" width="800" alt="BarsLab Giriş">
+
+  <br><br>
+
+  <h3>Admin Yönetim Paneli</h3>
+  <img src="screenshots/blogadminpanel.png" width="800" alt="BarsLab Admin">
+</div>
+
 ---
 
 ## 📂 Proje Yapısı
@@ -49,15 +71,5 @@ BarsLab/
     │   ├── pages/          # Login, Home, Admin Sayfaları
     │   └── assets/         # Logolar ve Görseller
     └── index.html          # Ana HTML dosyası
-
----
-
-## 📸 Ekran Görüntüleri
-
-![Ana Sayfa](bloghomepage.png)
-  
-![Ana Sayfa](blogdetailpage.png)
-![Ana Sayfa](blogloginpage.png)
-![Ana Sayfa](blogadminpanel.png)
 
 ---
