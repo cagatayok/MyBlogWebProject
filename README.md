@@ -1,4 +1,4 @@
-# 🛡️ BarsLab - Full Stack Siber Güvenlik & Yazılım Blogu
+# 🛡️ BarsLab - Full Stack Yazılım Blogu
 
 BarsLab, modern web teknolojileriyle geliştirilmiş, yazılım ve teknoloji odaklı içeriklerin paylaşılabileceği, güvenliği ön planda tutan bir Full-Stack blog platformudur. Bu proje, bir **Bilgisayar Mühendisliği** öğrencisinin yazılım geliştirme ve güvenlik standartlarını bir araya getirme sürecini temsil eder.
 
