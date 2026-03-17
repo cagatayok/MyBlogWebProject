@@ -35,23 +35,29 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
 
 <p align="center">
   <b>Ana Sayfa</b><br>
+  <br>
   <img src="bloghomepage.png" width="800">
   <br><br>
+  <br>
   
   <b>Blog Detay Sayfası</b><br>
+  <br>
   <img src="blogdetailpage.png" width="800">
   <br><br>
 
   <b>Giriş Paneli</b><br>
+  <br>
   <img src="blogloginpage.png" width="800">
   <br><br>
 
   <b>Admin Yönetim Paneli</b><br>
+  <br>
   <img src="blogadminpanel.png" width="800">
 
    <br><br>
 
   <b>Admin Delete & Update</b><br>
+  <br>
   <img src="blogadminupdateanddelete.png" width="800">
   
 </p>
