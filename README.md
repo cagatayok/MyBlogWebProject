@@ -54,24 +54,21 @@ BarsLab/
 
 ## 📸 Ekran Görüntüleri
 
-<div align="center">
-  <h3>Ana Sayfa</h3>
-  <img src="bloghomepage.png" width="800" alt="BarsLab Ana Sayfa">
+<p align="center">
+  <b>Ana Sayfa</b><br>
+  <img src="bloghomepage.png" width="800">
+  <br><br>
   
+  <b>Blog Detay Sayfası</b><br>
+  <img src="blogdetailpage.png" width="800">
   <br><br>
 
-  <h3>Blog Detay</h3>
-  <img src="blogdetailpage.png" width="800" alt="BarsLab Detay Sayfası">
-  
+  <b>Giriş Paneli</b><br>
+  <img src="blogloginpage.png" width="800">
   <br><br>
 
-  <h3>Giriş Paneli</h3>
-  <img src="blogloginpage.png" width="800" alt="BarsLab Giriş">
-
-  <br><br>
-
-  <h3>Admin Yönetim Paneli</h3>
-  <img src="blogadminpanel.png" width="800" alt="BarsLab Admin">
-</div>
+  <b>Admin Yönetim Paneli</b><br>
+  <img src="blogadminpanel.png" width="800">
+</p>
 
 ---
