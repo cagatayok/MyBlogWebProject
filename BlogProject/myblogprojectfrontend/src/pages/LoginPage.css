@@ -1,0 +1,144 @@
+/* 🌊 Sayfa Arka Planı: Üstten (Navbar) aşağıya doğru yumuşak geçiş */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Navbar'ın beyazlığından başlayıp zifiri siyaha inen degrade */
+    background: linear-gradient(180deg, #ffffff 0%, #111827 35%, #000000 100%);
+    padding: 20px;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* 🤍 Bembeyaz Form Kutusu: Siyah zeminde patlayan "Premium" görünüm */
+.login-box {
+    background-color: #ffffff;
+    padding: 48px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    /* Güçlü gölge efekti */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 420px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.login-box:hover {
+    transform: translateY(-5px);
+}
+
+/* 🎯 Logo Alanı: Tam Merkeze Çivilenmiş */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.logo-image {
+    width: 140px; /* Siyah-beyaz logon için ideal boyut */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+/* Başlıklar: Beyaz kutuda jilet gibi net */
+.login-title {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+}
+
+/* 🛡️ KAPSÜLLENMİŞ ALAN: Sadece giriş sayfasındaki elemanlar */
+
+/* Hata Mesajı */
+.login-wrapper .error-message {
+    background-color: #fef2f2;
+    color: #dc2626;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #fecaca;
+}
+
+/* Form Grupları */
+.login-wrapper .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+/* Yazılar (Label): Net okunması için koyu antrasit */
+.login-wrapper .form-label {
+    margin-bottom: 8px;
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* İnput Kutuları: Modern ve temiz */
+.login-wrapper .form-input {
+    padding: 14px 16px;
+    background-color: #f9fafb; /* Çok hafif gri */
+    color: #000000;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.login-wrapper .form-input::placeholder {
+    color: #9ca3af;
+}
+
+.login-wrapper .form-input:focus {
+    border-color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ✨ Simsiyah Buton: Siyah-Beyaz logonun en büyük destekçisi */
+.login-wrapper .submit-btn,
+.login-wrapper .login-submit-btn {
+    margin-top: 8px;
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.05rem;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.login-wrapper .submit-btn:hover,
+.login-wrapper .login-submit-btn:hover {
+    background-color: #1f2937;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-wrapper .submit-btn:active,
+.login-wrapper .login-submit-btn:active {
+    transform: scale(0.98);
+}

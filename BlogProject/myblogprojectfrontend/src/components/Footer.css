@@ -1,0 +1,42 @@
+.site-footer {
+    /* ✨ Navbar ve Admin Paneliyle uyumlu tam siyah zemin */
+    background-color: #000000;
+    
+    /* Gözü yormayan, minimalist gri yazı rengi */
+    color: #8d939e; 
+    
+    text-align: center;
+    padding: 40px 20px; /* Daha ferah bir alan */
+    
+    /* Üstten ayıran çok ince, şık bir çizgi */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    
+    margin-top: auto; 
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
+
+/* Footer içindeki marka isminin parlaması (Siyah-Beyaz Konsept) */
+.footer-highlight {
+    color: #ffffff; /* Kırmızı yerine saf beyaz */
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    margin-right: 4px;
+}
+
+/* İstersen bir de küçük bir link efekti ekleyelim (Sosyal medya vs. için) */
+.site-footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0.8;
+}
+
+/* Ekran kaydıkça hafif parlaması için */
+.site-footer:hover {
+    color: #9ca3af;
+    transition: color 0.4s ease;
+}

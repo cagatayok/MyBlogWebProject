@@ -1,0 +1,207 @@
+/* 🔡 Profesyonel Göz Dostu Fontu İçeri Alıyoruz */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+.admin-container {
+    min-height: 100vh;
+    /* Navbar'dan zemine yumuşak geçiş */
+    background: linear-gradient(180deg, #ffffff 0%, #0a0a0a 20%, #000000 100%);
+    color: #e2e8f0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 40px 20px;
+    /* Yazı pürüzsüzleştirme */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Başlık Alanı */
+.admin-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.admin-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #000000; /* Üstteki açık alanda net okunsun */
+    letter-spacing: -1px;
+}
+
+.admin-subtitle {
+    color: #e3ebf7;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* 🃏 Form ve Liste Kartları */
+.admin-form-card,
+.admin-list-card {
+    background-color: #0f1115; /* Saf siyah değil, çok koyu mat bir gri */
+    max-width: 950px;
+    margin: 0 auto 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #1e293b;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+.admin-list-title {
+    color: #f8fafc;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+/* 🛡️ KAPSÜLLENMİŞ ALAN: Form Elemanları */
+
+.admin-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.admin-container .form-label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #94a3b8; /* Gözü yormayan yumuşak gri */
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Girdi Alanları: Gözü dinlendiren tipografi */
+.admin-container .form-input,
+.admin-container .form-textarea,
+.admin-container .file-input,
+.admin-container select {
+    background-color: #000000;
+    border: 1px solid #1e293b;
+    color: #cbd5e1; /* Kırık beyaz (Kontrastı yumuşattık) */
+    padding: 16px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.6; /* Satır aralığı artırıldı */
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.admin-container .form-textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.admin-container .form-input:focus,
+.admin-container .form-textarea:focus {
+    border-color: #ffffff;
+    background-color: #050505;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/* 🚀 Butonlar */
+.admin-container .submit-btn {
+    width: 100%;
+    padding: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.admin-container .submit-btn:hover {
+    background-color: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+.admin-container .btn-cancel {
+    background-color: transparent;
+    color: #94a3b8;
+    border: 1px solid #1e293b;
+    margin-top: 15px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.admin-container .btn-cancel:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* 📊 Tablo Düzenlemesi (Göz Dostu Listeleme) */
+.admin-container .post-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.admin-container .post-table th {
+    padding: 12px 15px;
+    text-align: left;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.admin-container .post-table td {
+    padding: 18px 15px;
+    background-color: #090b0f;
+    color: #94a3b8;
+    font-size: 0.95rem;
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+}
+
+.admin-container .post-table td:first-child { border-left: 1px solid #1e293b; border-radius: 12px 0 0 12px; }
+.admin-container .post-table td:last-child { border-right: 1px solid #1e293b; border-radius: 0 12px 12px 0; }
+
+.admin-container .post-table tr:hover td {
+    background-color: #161b22;
+    color: #ffffff;
+}
+
+/* 🛠️ İşlem Butonları */
+.admin-container .btn-edit {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.admin-container .btn-delete {
+    background-color: transparent;
+    color: #64748b;
+    border: 1px solid #1e293b;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.admin-container .btn-delete:hover {
+    color: #ff4444;
+    border-color: #ff4444;
+}
+
+/* ✅ Mesaj Kutuları */
+.admin-container .message-success {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}

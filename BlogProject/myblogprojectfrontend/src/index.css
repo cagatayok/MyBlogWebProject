@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* Sayfa içeriği az olsa bile en az ekran boyutu kadar yer kapla */
+    min-height: 100vh; 
+    /* Alt taraftaki o beyazlığı senin karanlık temanla kapatıyoruz */
+    /* Sayfa sonundaki o beyaz 'zıplama' alanını da siyah yapar */
+    
+}
+
+/* App.jsx içindeki ana sarmalayıcı için ek önlem */
