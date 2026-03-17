@@ -48,6 +48,12 @@ BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenl
 
   <b>Admin Yönetim Paneli</b><br>
   <img src="blogadminpanel.png" width="800">
+
+   <br><br>
+
+  <b>Admin Delete & Update</b><br>
+  <img src="blogadminupdateanddelete.png" width="800">
+  
 </p>
 
 ---
