@@ -1,18 +1,22 @@
-# 🛡️ BarsLab - Full Stack Yazılım Blogu
+🛡️ Full-Stack Yazılım ve Teknoloji Blogu
 
-BarsLab, modern web teknolojileriyle geliştirilmiş, yazılım ve teknoloji odaklı içeriklerin paylaşılabileceği, güvenliği ön planda tutan bir Full-Stack blog platformudur. Bu proje, bir **Bilgisayar Mühendisliği** öğrencisinin yazılım geliştirme ve güvenlik standartlarını bir araya getirme sürecini temsil eder.
+Bu proje, modern web teknolojileriyle geliştirilmiş, yazılım, teknoloji ve güncel konular üzerine blog yazılarının ve teknik makalelerin paylaşılabileceği, okuyucu odaklı bir platformdur. Bir bilgisayar mühendisliği öğrencisi olarak, modern yazılım geliştirme prensiplerini ve güvenlik standartlarını uygulayarak geliştirdiğim bu sistem, bilgi paylaşımını merkeze almaktadır.
 
----
+🚀 Proje Hakkında
 
-## 🚀 Proje Hakkında
-BarsLab, sadece bir içerik yönetim sistemi değil, aynı zamanda siber güvenlik prensiplerinin (JWT, CORS, Secure Config) uygulandığı bir "Portfolio Project"tir. Yönetici paneli üzerinden içerik yönetimi sağlanırken, kullanıcı tarafında hızlı ve duyarlı (responsive) bir arayüz sunar.
+Bu platform, yazarların içeriklerini kolayca yönetebileceği ve okurların akıcı bir okuma deneyimi yaşayabileceği dinamik bir altyapı sunar. Sadece kişisel bir vitrin olmanın ötesinde; arka planda güçlü güvenlik önlemlerinin (JWT, CORS, Secure Config) alındığı, ön yüzde ise içerik tüketiminin ve kullanıcı deneyiminin ön planda tutulduğu, makale paylaşımına özel olarak optimize edilmiş bir sistemdir.
 
-### ✨ Temel Özellikler
-- **🔐 Gelişmiş Kimlik Doğrulama:** JWT (JSON Web Token) kullanılarak güvenli giriş ve yetkilendirme sistemi.
-- **📱 Responsive Tasarım:** Masaüstü ve mobil cihazlarla tam uyumlu "Premium Dark" tema.
-- **🏗️ N-Tier Architecture:** Backend tarafında temiz ve sürdürülebilir katmanlı yapı.
-- **📑 Dinamik Blog Yönetimi:** Kategorilendirme, CRUD (Ekle/Oku/Güncelle/Sil) işlemleri ve resim desteği.
-- **🛡️ Güvenli Yapılandırma:** Veritabanı bağlantı bilgilerinin ve gizli anahtarların `appsettings.json` üzerinden güvenli yönetimi.
+✨ Temel Özellikler
+
+🔐 Gelişmiş Kimlik Doğrulama: JWT (JSON Web Token) altyapısı ile kurgulanmış, içerik üreticileri ve yöneticiler için güvenli giriş ve yetkilendirme sistemi.
+
+📱 Okuyucu Odaklı Responsive Tasarım: Masaüstü, tablet ve mobil cihazlarda kesintisiz ve göz yormayan bir okuma deneyimi sunan modern "Premium Dark" tema.
+
+🏗️ N-Tier Architecture: Backend tarafında temiz kod prensiplerine uygun, sürdürülebilir ve esnek katmanlı mimari.
+
+📑 Kapsamlı Makale Yönetimi: Yazıları kategorilendirme, zengin içerik oluşturma, tam kapsamlı CRUD (Ekle/Oku/Güncelle/Sil) işlemleri ve medya (resim) desteği.
+
+🛡️ Güvenli Yapılandırma: Hassas veritabanı bilgilerinin ve gizli anahtarların appsettings.json üzerinden güvenli konfigürasyon yöntemleriyle yönetimi.
 
 ---
 
